@@ -75,6 +75,7 @@ button {
 @media (min-width: 1440px) {
   .card {
     width: 15em !important;
+    height: 25em;
   }
 
   .card-container {
@@ -95,5 +96,9 @@ button {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     background-color: var(--very-dark-cyan);
+  }
+
+  p {
+    margin-bottom: 4em;
   }
 }
