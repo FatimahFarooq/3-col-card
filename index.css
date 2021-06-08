@@ -73,11 +73,15 @@ button {
 }
 
 @media (min-width: 1440px) {
+  .card {
+    width: 15em !important;
+  }
+
   .card-container {
     display: flex;
     align-items: center;
-    justify-content: center;
     min-height: 100vh;
+    justify-content: center;
   }
 
   .card:nth-child(1) {
